@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import { AlfaButton } from '@/components';
 </script>
 
 <template>
-  <HelloWorld />
+  <AlfaButton>Test</AlfaButton>
 </template>

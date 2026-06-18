@@ -1,0 +1,1 @@
+export { default as AlfaButton } from './alfa-button';
