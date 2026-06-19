@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import { AlfaButton } from '@/components';
+import { AlfaButton } from "@/components";
 </script>
 
 <template>
-  <AlfaButton>Test</AlfaButton>
+  <div className="flex items-center justify-center h-screen">
+    <AlfaButton>Test</AlfaButton>
+  </div>
 </template>
