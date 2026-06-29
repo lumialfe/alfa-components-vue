@@ -27,7 +27,7 @@ import { AlfaButton, AlfaText } from "@/components";
     <AlfaText tag="p">Hello World</AlfaText>
     <AlfaText tag="span">Hello World</AlfaText>
     <AlfaText variant="overline">Hello World</AlfaText>
-    <AlfaText variant="overline-big">Hello World</AlfaText>
+    <AlfaText variant="overline-lg">Hello World</AlfaText>
   </div>
 </template>
 

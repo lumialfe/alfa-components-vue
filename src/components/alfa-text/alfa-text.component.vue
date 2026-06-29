@@ -24,11 +24,12 @@ const classes = [baseClass, { [`${baseClass}--${props.variant}`]: props.variant 
   &--overline {
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-weight: var(--font-weight-lg);
   }
 
   &--overline-lg {
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     font-size: var(--font-size-md);
     font-weight: var(--font-weight-lg);
   }
