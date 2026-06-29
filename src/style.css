@@ -1,19 +1,34 @@
 :root {
+  --accent-color: #aa3bff;
+  --accent-dark-color: #8a00ff;
+  --on-accent-color: #fff;
+  --accent-background-color: #e8d6f7;
+  --background-color: #f3ecec;
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
-  --accent: #aa3bff;
   --accent-bg: rgba(170, 59, 255, 0.1);
   --accent-border: rgba(170, 59, 255, 0.5);
   --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
+
+  --font-size-sm: 12px;
+  --font-size-md: 16px;
+  --font-size-lg: 22px;
+
+  --font-weight-light: 300;
+  --font-weight-normal: 500;
+  --font-weight-bold: 700;
+
+  --transitions-duration-sm: 0.1s;
+  --transitions-duration-md: 0.3s;
+  --transitions-duration-lg: 0.7s;
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
@@ -41,8 +56,7 @@
     --accent-bg: rgba(192, 132, 252, 0.15);
     --accent-border: rgba(192, 132, 252, 0.5);
     --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+    --shadow: rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
 
   #social .button-icon {
@@ -190,7 +204,7 @@ code {
   border-top: 1px solid var(--border);
   text-align: left;
 
-  &>div {
+  & > div {
     flex: 1 1 0;
     padding: 32px;
 
@@ -285,7 +299,7 @@ code {
 
   &::before,
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: -4.5px;
     border: 5px solid transparent;
