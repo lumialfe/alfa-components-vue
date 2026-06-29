@@ -1,6 +1,6 @@
-export type Variant = "cta" | "primary" | "secondary" | "ghost";
+import type { Size } from "@/components/component.types";
 
-export type Size = "sm" | "md" | "lg";
+export type Variant = "cta" | "primary" | "secondary" | "ghost";
 
 export interface AlfaButtonProps {
   variant?: Variant;

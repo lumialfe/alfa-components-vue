@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { AlfaButton } from "@/components";
+import { AlfaButton, AlfaText } from "@/components";
 </script>
 
 <template>
@@ -16,6 +16,18 @@ import { AlfaButton } from "@/components";
     <AlfaButton variant="ghost" size="sm">Button</AlfaButton>
     <AlfaButton variant="ghost" size="md">Button</AlfaButton>
     <AlfaButton variant="ghost" size="lg">Button</AlfaButton>
+  </div>
+  <div class="alfa-grid">
+    <AlfaText tag="h1">Hello World</AlfaText>
+    <AlfaText tag="h2">Hello World</AlfaText>
+    <AlfaText tag="h3">Hello World</AlfaText>
+    <AlfaText tag="h4">Hello World</AlfaText>
+    <AlfaText tag="h5">Hello World</AlfaText>
+    <AlfaText tag="h6">Hello World</AlfaText>
+    <AlfaText tag="p">Hello World</AlfaText>
+    <AlfaText tag="span">Hello World</AlfaText>
+    <AlfaText variant="overline">Hello World</AlfaText>
+    <AlfaText variant="overline-big">Hello World</AlfaText>
   </div>
 </template>
 

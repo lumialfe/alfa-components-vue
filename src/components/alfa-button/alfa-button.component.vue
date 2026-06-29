@@ -22,6 +22,7 @@ const classes = [baseClass, `${baseClass}--${props.variant}`, `${baseClass}--${p
   border: none;
   width: fit-content;
   height: fit-content;
+  font-family: inherit;
   box-sizing: border-box;
   transition: all var(--transitions-duration-md) ease;
 
@@ -71,21 +72,21 @@ const classes = [baseClass, `${baseClass}--${props.variant}`, `${baseClass}--${p
     padding: 4px 8px;
     border-radius: 4px;
     font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-md);
   }
 
   &--md {
     padding: 6px 14px;
     border-radius: 6px;
     font-size: var(--font-size-md);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-lg);
   }
 
   &--lg {
     padding: 8px 24px;
     border-radius: 8px;
     font-size: var(--font-size-lg);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-md);
   }
 }
 </style>
